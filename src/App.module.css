@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(18deg, #e37682, #a58fe9);
+  background-size: 700% 700%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.App {
+  text-align: center;
+  font-family: "Roboto";
+  color: white;
+}
+
+.root {
+  flex-grow: 1;
+}
+
+.title {
+  flex-grow: 1;
+}
